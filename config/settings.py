@@ -117,3 +117,14 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+ALGORITHM = 'HS256'
+ACCESS_TOKEN_EXPIRE_MINUTES = 60*24
+
+GOOGLE_CLIENT_ID = '771190518740-ne0rqeskdl0a74he7simjvote5vepjbd.apps.googleusercontent.com'
+
+
+
+
+
